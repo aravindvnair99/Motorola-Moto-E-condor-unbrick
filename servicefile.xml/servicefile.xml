@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<flashing>
+  <header>
+    <phone_model model="condor"/>
+    <software_version version="condor_retaildsds-user 4.4.4 KXC21.5-40 46 release-keysMSM8610BP_1034.307.26.02P"/>
+    <sparsing enabled="true" max-sparse-size="268435456"/>
+    <interfaces>
+      <interface name="AP"/>
+    </interfaces>
+  </header>
+  <steps interface="AP">
+    <step operation="getvar" var="max-sparse-size"/>
+    <step operation="oem" var="fb_mode_set"/>
+    <step MD5="659ebe75b0626e51edcc9ea1f0d86d0f" filename="gpt.bin" operation="flash" partition="partition"/>
+    <step MD5="913667d56d60f4f3e94e125c6e08e7f7" filename="motoboot.img" operation="flash" partition="motoboot"/>
+    <step MD5="f6b7e9218e2159919b08a72a7d286529" filename="logo.bin" operation="flash" partition="logo"/>
+    <step MD5="c34847c53099898aa4fe3503518b018b" filename="boot.img" operation="flash" partition="boot"/>
+    <step MD5="eaa48221cafca2feefa16ddfd52ad240" filename="recovery.img" operation="flash" partition="recovery"/>
+    <step MD5="2a9939a3c97e3ceb4ec464a1d3250c1d" filename="system.img_sparsechunk.0" operation="flash" partition="system"/>
+    <step MD5="facb531993582a5b506c743cba2e24f6" filename="system.img_sparsechunk.1" operation="flash" partition="system"/>
+    <step MD5="19277d8cc0b0e73afde9b23b3f7f4ce8" filename="system.img_sparsechunk.2" operation="flash" partition="system"/>
+    <step MD5="a2b9af81d50d735701c099d113f3f3b8" filename="NON-HLOS.bin" operation="flash" partition="modem"/>
+    <step operation="erase" partition="modemst1"/>
+    <step operation="erase" partition="modemst2"/>
+    <step MD5="f72c8ffa5d8453ebd1ff5b257962ec44" filename="fsg.mbn" operation="flash" partition="fsg"/>
+    <step operation="oem" var="fb_mode_clear"/>
+  </steps>
+</flashing>
