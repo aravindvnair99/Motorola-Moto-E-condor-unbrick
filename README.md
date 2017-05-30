@@ -25,6 +25,10 @@ SOFTWARE.
 
 Check here first: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
+Prerequsite:
+
+1. You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. While you reboot press F8 many times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system.
+
 Method 1 (QFIL):
 
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
@@ -39,3 +43,6 @@ Method 2 (Blank Flash):
 Method 3 (eMMC Software Download):
 
 1. 
+
+Fastboot commands to restore stock firmware:
+
