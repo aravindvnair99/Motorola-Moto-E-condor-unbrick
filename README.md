@@ -46,3 +46,26 @@ Method 3 (eMMC Software Download):
 
 Fastboot commands to restore stock firmware:
 
+First, identify your situation:
+
+  Case 1: With the device powered off, press and hold the power button and volume down keys at once for 3-5 seconds to go to fastboot mode. (Only hold both keys for the specified time.)
+
+  Case 2: With the device powered on, go to Settings -> About Phone and tap on ‘Build number’ 6 times to unlock Developer Options. Come back to Settings to find it. In Developer Options, enable ‘adb’ and any other relevant adb setting. Then open adb on your computer and type ‘adb reboot bootloader’
+
+Once in fastboot mode, type these (Make sure all files are in one folder and not sub-folders):
+
+1.	fastboot flash partition gpt.bin 
+2.	fastboot flash motoboot motoboot.img
+3.	fastboot reboot-bootloader
+4.	fastboot flash logo logo.bin
+5.	fastboot flash boot boot.img
+6.	fastboot flash recovery recovery.img
+7.	fastboot flash system system.img
+8.	fastboot flash modem NON-HLOS.bin
+9.	fastboot erase modemst1 
+10.	fastboot erase modemst2 
+11.	fastboot flash fsg fsg.mbn
+12.	fastboot erase userdata
+13.	fastboot erase cache
+14.	fastboot restart
+15.	fastboot oem lock
