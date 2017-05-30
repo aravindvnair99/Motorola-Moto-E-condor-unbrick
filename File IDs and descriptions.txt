@@ -4,6 +4,7 @@ File IDs and descriptions:
 MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
 rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
 patch0.xml - patch definition of the partitions
+NON-HLOS.bin - Modem/baseband firmware files
 
 Please note OEMs in many cases change default names.
 
