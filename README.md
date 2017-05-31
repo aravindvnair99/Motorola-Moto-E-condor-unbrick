@@ -27,11 +27,20 @@ Check here first: https://forum.xda-developers.com/moto-e/general/unbrick-hard-b
 
 Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
 
+Partition match:
+
+1. Boot logo -> logo.bin
+2. Boot -> boot.img
+3. Recovery -> recovery.img
+4. Modem/Radio -> NON-HLOS.bin
+5. fsg -> fsg.mbn
+6. Bootloader -> motoboot.img
+
 Prerequsite:
 
 1. You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. While you reboot press F8 many times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system.
 
-Method 1 (QFIL):
+Method 1 (QFIL): (Don't try)
 
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 2. Choose Flat Build and select the COM port to which the phone is connected.
@@ -44,7 +53,7 @@ Method 2 (Blank Flash):
 
 Method 3 (eMMC Software Download):
 
-1. Will be updated soon.
+1. Will be updated soon. Don't try.
 
 Fastboot commands to restore stock firmware:
 
