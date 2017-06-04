@@ -3,7 +3,7 @@ Tools for Motorola Moto E XT1022 condor unbrick
 
 MIT License
 
-Copyright (c) 2017 Aravind V. Nair
+Copyright © 2017 Aravind V. Nair
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,9 +23,39 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Check here first: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
+Check here first on my XDA DevDB project: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
 Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
+
+File IDs and descriptions:
+
+8x10_msimage.mbn - bootloader
+MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
+rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
+patch0.xml - patch definition of the partitions
+NON-HLOS.bin - Modem/baseband firmware files
+
+Please note OEMs in many cases change default names.
+
+Made by Aravind V. Nair
+Contact: https://aravindvnair1999.blogspot.com/p/about-the.html
+
+PBL = Primary Boot Loader
+SBL = Secondary Boot Loader
+RPM = Resource and Power Management
+TZ = Trust Zone
+HDLC = High level Data Link Control
+MSM = Mobile Station Modem
+DMSS = Dual Mode Subscriber Station
+QDL = Qualcomm Download
+QHSUSB_DLOAD = Qualcomm High Speed USB Download
+EhostDL = Emergency Host Download
+DCN = Document Control Number, used by Qualcomm to track their thousands of documents
+QFIL = Qualcomm Flash Image Loader
+QPST = Qualcomm
+EDL = Emergency Download mode
+HLOS = High Level OS (Normal boot up mode)
+QFIT = Qualcomm Factory Image Tools
 
 Partition match:
 
