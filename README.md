@@ -5,6 +5,8 @@ MIT License
 
 Copyright © 2017 Aravind V. Nair
 
+Contact: https://aravindvnair1999.blogspot.com/p/about-the.html
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -29,33 +31,30 @@ Fastboot is three different things with the same name: A protocol for communicat
 
 File IDs and descriptions:
 
-8x10_msimage.mbn - bootloader
-MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
-rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
-patch0.xml - patch definition of the partitions
-NON-HLOS.bin - Modem/baseband firmware files
+1. 8x10_msimage.mbn - bootloader
+2. MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
+3. rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
+4. patch0.xml - patch definition of the partitions
+5. NON-HLOS.bin - Modem/baseband firmware files
 
 Please note OEMs in many cases change default names.
 
-Made by Aravind V. Nair
-Contact: https://aravindvnair1999.blogspot.com/p/about-the.html
-
-PBL = Primary Boot Loader
-SBL = Secondary Boot Loader
-RPM = Resource and Power Management
-TZ = Trust Zone
-HDLC = High level Data Link Control
-MSM = Mobile Station Modem
-DMSS = Dual Mode Subscriber Station
-QDL = Qualcomm Download
-QHSUSB_DLOAD = Qualcomm High Speed USB Download
-EhostDL = Emergency Host Download
-DCN = Document Control Number, used by Qualcomm to track their thousands of documents
-QFIL = Qualcomm Flash Image Loader
-QPST = Qualcomm
-EDL = Emergency Download mode
-HLOS = High Level OS (Normal boot up mode)
-QFIT = Qualcomm Factory Image Tools
+1. PBL = Primary Boot Loader
+2. SBL = Secondary Boot Loader
+3. RPM = Resource and Power Management
+4. TZ = Trust Zone
+5. HDLC = High level Data Link Control
+6. MSM = Mobile Station Modem
+7. DMSS = Dual Mode Subscriber Station
+8. QDL = Qualcomm Download
+9. QHSUSB_DLOAD = Qualcomm High Speed USB Download
+10. EhostDL = Emergency Host Download
+11. DCN = Document Control Number, used by Qualcomm to track their thousands of documents
+12. QFIL = Qualcomm Flash Image Loader
+13. QPST = Qualcomm
+14. EDL = Emergency Download mode
+15. HLOS = High Level OS (Normal boot up mode)
+16. QFIT = Qualcomm Factory Image Tools
 
 Partition match:
 
@@ -79,11 +78,11 @@ Method 1 (QFIL): (Don't try)
 
 Method 2 (Blank Flash):
 
-1. Don't try. Not working. You might make the situation worse.
+1. Don't try. Not working. You might make the situation worse. All files aren't present.
 
 Method 3 (eMMC Software Download):
 
-1. Will be updated soon. Don't try.
+1. Don't try. Not working. You might make the situation worse. All files aren't present.
 
 Fastboot commands to restore stock firmware:
 
