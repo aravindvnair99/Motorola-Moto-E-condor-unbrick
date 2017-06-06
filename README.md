@@ -81,6 +81,7 @@ Method 1 (QFIL): (Don't try)
 Method 2 (Blank Flash):
 
 1. Don't try. Not working. You might make the situation worse. All files aren't present.
+2. Blanklash won't work unless Motorola releases programmer.bin
 
 Method 3 (eMMC Software Download):
 
