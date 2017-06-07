@@ -76,7 +76,7 @@ Prerequsite:
 
 1. You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. While you reboot press F8 multiple times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system.
 
-Method 1 (QFIL): (Don't try)
+Method 1 (QFIL): (Will provide better tutorial soon)
 
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 2. Choose Flat Build and select the COM port to which the phone is connected.
