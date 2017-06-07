@@ -81,7 +81,7 @@ Method 1 (QFIL): (Will provide better tutorial soon)
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 2. Choose Flat Build and select the COM port to which the phone is connected.
 3. Select the programmer (mbn file) for MSM8x10 and then choose the rawprogram0.xml and patch0.xml by clicking 'Load XML'.
-4. Click Download and watch your phone come back to life. Please try all combinations of the files I uploaded.
+4. Click Download and watch your phone come back to life. Please try all combinations of the files I uploaded. You can download from the folders on my GitHub repository.
 
 Method 2 (Blank Flash):
 
