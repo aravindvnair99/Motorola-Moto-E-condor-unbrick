@@ -42,7 +42,7 @@ File IDs and descriptions (Please note OEMs in many cases change default names):
 2. MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
 3. rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
 4. patch0.xml - patch definition of the partitions
-5. NON-HLOS.bin - Modem/baseband firmware files
+5. NON-HLOS.bin - Modem/baseband/radio firmware files
 
 Common terms:
 
@@ -105,7 +105,15 @@ First, identify your situation:
 
 2. Case 2: With the device powered on, go to Settings -> About Phone and tap on ‘Build number’ 6 times to unlock Developer Options. Come back to Settings to find it. In Developer Options, enable ‘adb’ and any other relevant adb setting. Then open adb on your computer and type ‘adb reboot bootloader’
 
-Once in fastboot mode, type these (Make sure all files are in one folder and not sub-folders):
+Once in fastboot mode, do one of this (Everything should be in the root folder instead of sub-folders):
+
+Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic.
+
+Automatic :
+
+1. Get 'Fastboot Unbrick.bat', 'fastboot'
+
+Manual:
 
 1.	fastboot flash partition gpt.bin 
 2.	fastboot flash motoboot motoboot.img
