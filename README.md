@@ -63,14 +63,14 @@ Common terms:
 15. HLOS = High Level OS (Normal boot up mode)
 16. QFIT = Qualcomm Factory Image Tools
 
-Partition - file match:
+Partition -> File match -> Description:
 
-1. Boot logo -> logo.bin
+1. Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
 2. Boot -> boot.img
-3. Recovery -> recovery.img
-4. Modem/Radio -> NON-HLOS.bin
+3. Recovery -> recovery.img ->
+4. Modem/Radio -> NON-HLOS.bin -> Contains radio drivers for mobile communication
 5. fsg -> fsg.mbn
-6. Bootloader -> motoboot.img
+6. Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
 
 Prerequsite:
 
