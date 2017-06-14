@@ -27,6 +27,18 @@ SOFTWARE.
 
 Check here first on my XDA DevDB project before proceeding: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
+
+
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
+
+
+
 A bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Manager and doesn't show anything on display.
 
 Moto E brick happens when:
