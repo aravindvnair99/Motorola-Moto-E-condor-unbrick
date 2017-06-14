@@ -28,5 +28,5 @@
   <patch SECTOR_SIZE_IN_BYTES="512" byte_offset="16" filename="gpt_backup0.bin" physical_partition_number="0" size_in_bytes="4" start_sector="32" value="0" what="Zero Out Header CRC in Backup Header."/>
   <patch SECTOR_SIZE_IN_BYTES="512" byte_offset="16" filename="gpt_backup0.bin" physical_partition_number="0" size_in_bytes="4" start_sector="32" value="CRC32(32,92)" what="Update Backup Header with CRC of Backup Header."/>
   <patch SECTOR_SIZE_IN_BYTES="512" byte_offset="16" filename="DISK" physical_partition_number="0" size_in_bytes="4" start_sector="NUM_DISK_SECTORS-1." value="0" what="Zero Out Header CRC in Backup Header."/>
-  <patch SECTOR_SIZE_IN_BYTES="512" byte_offset="16" filename="DISK" physical_partition_number="0" size_in_bytes="4" start_sector="NUM_DISK_SECTORS-1." value="CRC32(NUM_DISK_SECTORS-1.,92)" what="Update Backup Header with CRC of Backup Header."/>
+  <patch SECTOR_SIZE_IN_BYTES="256" byte_offset="16" filename="DISK" physical_partition_number="0" size_in_bytes="4" start_sector="NUM_DISK_SECTORS-1." value="CRC32(NUM_DISK_SECTORS-1.,92)" what="Update Backup Header with CRC of Backup Header."/>
 </patches>
