@@ -16,28 +16,40 @@ echo.
 fastboot flash boot boot.img
 timeout /t 2
 echo Flashing recovery partition
+echo.
 fastboot flash recovery recovery.img
 timeout /t 2
 echo Flashing system partition
+echo.
 fastboot flash system system.img_sparsechunk.0
 timeout /t 2
 fastboot flash system system.img_sparsechunk.1
 timeout /t 2
 fastboot flash system system.img_sparsechunk.2
 timeout /t 2
-echo
+echo Flashing modem partition
+echo.
 fastboot flash modem NON-HLOS.bin
 timeout /t 2
 fastboot erase modemst1
 timeout /t 2
 fastboot erase modemst2
 timeout /t 2
+echo Flashing fsg partition
+echo.
 fastboot flash fsg fsg.mbn
 timeout /t 2
+echo Wiping cache partition
+echo.
 fastboot erase cache
 timeout /t 2
+echo Wiping userdata partition
+echo.
 fastboot erase userdata
 timeout /t 2
+echo Device rebooting.
+echo.
 fastboot reboot
+echo File processed successfully. If device still doesn't work, make sure the files are correct and drivers are installed.
 echo on
 pause
