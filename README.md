@@ -27,6 +27,7 @@ SOFTWARE.
 
 Check here first on my XDA DevDB project before proceeding: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
+Read through my XDA DevDB post in the link above before proceeding any further.
 
 
 DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!!
