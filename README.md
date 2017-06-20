@@ -84,6 +84,7 @@ Partition -> File match -> Description:
 4. Modem/Radio -> NON-HLOS.bin -> Contains radio drivers for mobile communication
 5. fsg -> fsg.mbn
 6. Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
+7. PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
 
 Prerequsite:
 
