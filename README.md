@@ -54,22 +54,22 @@ DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN R
 
 A bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Manager and doesn't show anything on display.
 
-Moto E brick happens when:
+# Moto E brick happens when:
 
 1. Downgrading to stock 4.4.2 from stock 5.0.x (If correct bootloader is present, no issues)
 2. Take OTA from stock 4.4.2 to stock 4.4.4 (If correct bootloader is present, no issues)
 
 Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
 
-File IDs and descriptions (Please note OEMs in many cases change default names):
+# File IDs and descriptions (Please note OEMs in many cases change default names):
 
-1. 8x10_msimage.mbn - bootloader
-2. MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
-3. rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
-4. patch0.xml - patch definition of the partitions
-5. NON-HLOS.bin - Modem/baseband/radio firmware files
+* 8x10_msimage.mbn - bootloader
+* MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
+* rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
+* patch0.xml - patch definition of the partitions
+* NON-HLOS.bin - Modem/baseband/radio firmware files
 
-Common terms:
+# Common terms:
 
 1. PBL = Primary Boot Loader
 2. SBL = Secondary Boot Loader
@@ -88,7 +88,7 @@ Common terms:
 15. HLOS = High Level OS (Normal boot up mode)
 16. QFIT = Qualcomm Factory Image Tools
 
-Partition -> File match -> Description:
+# Partition -> File match -> Description:
 
 1. Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
 2. Boot -> boot.img
@@ -98,48 +98,48 @@ Partition -> File match -> Description:
 6. Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
 7. PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
 
-Prerequsite:
+# Prerequsite:
 
 1. You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. While you reboot press F8 multiple times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system.
 
-Method 1 (QFIL): (Will provide better tutorial soon)
+# Method 1 (QFIL): (Will provide better tutorial soon)
 
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 2. Choose Flat Build and select the COM port to which the phone is connected.
 3. Select the programmer (mbn file) for MSM8x10 and then choose the rawprogram0.xml and patch0.xml by clicking 'Load XML'.
 4. Click Download and watch your phone come back to life. Please try all combinations of the files I uploaded. You can download from the folders on my GitHub repository.
 
-Method 2 (Blank Flash):
+# Method 2 (Blank Flash):
 
 1. Don't try. Not working. You might make the situation worse. All files aren't present.
 2. Blanklash won't work unless Motorola releases the signed files. It's not worth of my time to sit and sign the files with proper checksum. SORRY!
 3. Those of you who already tried will most probably have to replace motherboard due to bootloader/SoC internal damage.
 
-Method 3 (eMMC Software Download):
+# Method 3 (eMMC Software Download):
 
 1. Don't try. Not working. You might make the situation worse. All files aren't present.
 
-Method 4 (Mi Flash Tool):
+# Method 4 (Mi Flash Tool):
 
 1. Don't try. Not working. You might make the situation worse. All files aren't present.
 
-Fastboot commands to restore stock firmware:
+# Fastboot commands to restore stock firmware:
 
 First, identify your situation:
 
-1. Case 1: With the device powered off, press and hold the power button and volume down keys at once for 3-5 seconds to go to fastboot mode. (Only hold both keys for the specified time.)
+* Case 1: With the device powered off, press and hold the power button and volume down keys at once for 3-5 seconds to go to fastboot mode. (Only hold both keys for the specified time.)
 
-2. Case 2: With the device powered on, go to Settings -> About Phone and tap on ‘Build number’ 6 times to unlock Developer Options. Come back to Settings to find it. In Developer Options, enable ‘adb’ and any other relevant adb setting. Then open adb on your computer and type ‘adb reboot bootloader’
+* Case 2: With the device powered on, go to Settings -> About Phone and tap on ‘Build number’ 6 times to unlock Developer Options. Come back to Settings to find it. In Developer Options, enable ‘adb’ and any other relevant adb setting. Then open adb on your computer and type ‘adb reboot bootloader’
 
 Once in fastboot mode, do one of this (Everything should be in the root folder instead of sub-folders):
 
-Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic.
+Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier.
 
-Automatic :
+## Automatic :
 
 1. Get 'Fastboot Unbrick.bat', 'fastboot'
 
-Manual:
+## Manual:
 
 1.	fastboot flash partition gpt.bin 
 2.	fastboot flash motoboot motoboot.img
