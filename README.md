@@ -157,3 +157,11 @@ Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything au
 13.	fastboot erase cache
 14.	fastboot oem lock
 15.	fastboot restart
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
