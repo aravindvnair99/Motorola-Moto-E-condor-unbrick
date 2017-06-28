@@ -165,3 +165,9 @@ Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Authors
+
+* **Aravind V. Nair** - *All development*- [AravindVNair99](https://github.com/aravindvnair99)
+
+See also the list of [contributors](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/graphs/contributors) who participated in this project.
