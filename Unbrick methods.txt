@@ -41,19 +41,41 @@ Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything au
 Open fastboot after connecting phone in fastboot mode and type:
 
 ```
+
 fastboot flash partition gpt.bin 
+
 fastboot flash motoboot motoboot.img
+
 fastboot reboot-bootloader
+
 fastboot flash logo logo.bin
+
 fastboot flash boot boot.img
+
 fastboot flash recovery recovery.img
+
 fastboot flash system system.img
+
 fastboot flash modem NON-HLOS.bin
+
 fastboot erase modemst1 
+
 fastboot erase modemst2 
+
 fastboot flash fsg fsg.mbn
+
 fastboot erase userdata
+
 fastboot erase cache
+
 fastboot oem lock
+
 fastboot restart
+
+```
+
+```
+
+Test
+
 ```
