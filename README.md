@@ -57,8 +57,8 @@ A bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Man
 
 # Moto E brick happens when:
 
-1. Downgrading to stock 4.4.2 from stock 5.0.x (If correct bootloader is present, no issues)
-2. Take OTA from stock 4.4.2 to stock 4.4.4 (If correct bootloader is present, no issues)
+* Downgrading to stock 4.4.2 from stock 5.0.x (If correct bootloader is present, no issues)
+* Take OTA from stock 4.4.2 to stock 4.4.4 (If correct bootloader is present, no issues)
 
 Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
 
@@ -103,15 +103,15 @@ Fastboot is three different things with the same name: A protocol for communicat
 
 Please read [Prerequisite](Prerequisite.md) file for details.
 
-## Contributing
+# Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Authors
+# Authors
 
 * **Aravind V. Nair** - *All development*- [AravindVNair99](https://github.com/aravindvnair99)
 
