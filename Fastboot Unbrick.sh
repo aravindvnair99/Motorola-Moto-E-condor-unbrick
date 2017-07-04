@@ -1,7 +1,6 @@
 #!/bin/bash
-# Fastboot Unbrick script
-
-title Fastboot Unbrick Script by Aravind V Nair
+windowtitle="Fastboot Unbrick Script by Aravind V Nair"
+echo -e '\033]2;'$windowtitle'\007'
 echo
 echo "This script is made by Aravind V. Nair only for Motorola devices."
 echo
