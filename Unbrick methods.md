@@ -41,7 +41,13 @@ Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything au
 ### Linux Users:
 
 1. Get 'Fastboot Unbrick.sh', 'fastboot' and your firmware files in one folder.
-2. Execute Fastboot Unbrick.sh in terminal after giving permissions using chmod and watch your phone come back to life.
+2. Open terminal and navigate to this folder. Or simply right click on an empty space in the folder and choose 'Open in Terminal'.
+3. Type the following commands to execute the script in terminal after giving permissions using chmod and watch your phone come back to life.:
+
+```
+chmod 755 "Fastboot Unbrick.sh"
+sudo ./"Fastboot Unbrick.sh"
+```
 
 ## Manual:
 
