@@ -59,7 +59,7 @@ timeout /t 2
 echo Device rebooting.
 echo.
 fastboot reboot
-echo File processed successfully. If device still doesn't work, make sure the files are correct and drivers are installed.
+echo Script processed successfully. If device still doesn't work, make sure the files are correct and drivers are installed.
 echo.
 echo on
 pause
