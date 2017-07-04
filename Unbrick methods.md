@@ -46,6 +46,7 @@ Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything au
 
 ```
 chmod +x "Fastboot Unbrick.sh"
+
 sudo ./"Fastboot Unbrick.sh"
 ```
 
