@@ -1,8 +1,6 @@
 #!/bin/bash
 # Fastboot Unbrick script
 
-echo "Script not yet ready. Check back on the repository soon."
-
 title Fastboot Unbrick Script by Aravind V Nair
 echo
 echo "This script is made by Aravind V. Nair only for Motorola devices."
@@ -11,9 +9,8 @@ echo "Please do not try on other devices."
 echo
 echo "You can find methods to contact me by searching Google for my name - 'Aravind V. Nair'."
 echo
-echo "Are you ready to unbrick? Else, press Ctrl + C."
+read -t5 -n1 -r -p 'Press any key in the next five seconds...' key
 echo
-pause
 echo "Are you sure? Okay, do not interrupt the process. Let the program finish."
 echo
 echo "Flashing boot partition"
