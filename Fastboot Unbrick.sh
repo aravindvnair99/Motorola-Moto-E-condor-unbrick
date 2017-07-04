@@ -19,21 +19,21 @@ echo
 echo "Flashing boot partition"
 echo
 fastboot flash boot boot.img
-timeout /t 2
+sleep 2
 echo
 echo "Flashing recovery partition"
 echo
 fastboot flash recovery recovery.img
-timeout /t 2
+sleep 2
 echo
 echo "Flashing system partition"
 echo
 fastboot flash system system.img_sparsechunk.0
-timeout /t 2
+sleep 2
 fastboot flash system system.img_sparsechunk.1
-timeout /t 2
+sleep 2
 fastboot flash system system.img_sparsechunk.2
-timeout /t 2
+sleep 2
 echo
 echo "Flashing modem partition"
 echo
@@ -42,22 +42,22 @@ timeout /t 2
 echo
 echo "Wiping modem backups"
 fastboot erase modemst1
-timeout /t 2
+sleep 2
 fastboot erase modemst2
-timeout /t 2
+sleep 2
 echo
 echo "Flashing fsg partition"
 echo
 fastboot flash fsg fsg.mbn
-timeout /t 2
+sleep 2
 echo "Wiping cache partition"
 echo
 fastboot erase cache
-timeout /t 2
+sleep 2
 echo "Wiping userdata partition"
 echo
 fastboot erase userdata
-timeout /t 2
+sleep 2
 echo "Device rebooting."
 echo
 fastboot reboot
