@@ -2,8 +2,8 @@
 
 Report [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/issues/new) in detail answering these questions:
 
-# What steps did you take to make the bug appear?
-# How can the bug be fixed? (Incase you know)
+* What steps did you take to make the bug appear?
+* How can the bug be fixed? (Incase you know)
 
 # I want to participate in the discussion.
 
