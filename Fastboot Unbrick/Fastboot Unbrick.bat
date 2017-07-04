@@ -3,7 +3,7 @@ mode 1000
 cls
 title Fastboot Unbrick Script by Aravind V Nair
 echo.
-echo This script is made by Aravind V. Nair only for Motorola devices.
+echo This script is made by Aravind V. Nair only for Motorola Android devices.
 echo.
 echo Please do not try on other devices.
 echo.
