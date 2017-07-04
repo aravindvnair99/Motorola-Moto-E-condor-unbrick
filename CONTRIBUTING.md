@@ -1,16 +1,15 @@
-Those who wish to contribute please contace me. All details mentioned on XDA.
+# I found some bugs or issues. Where do I report?
 
-# How to file a bug report?
+Report [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/issues/new) in detail answering these questions:
 
-Report to me on XDA.
+# What steps did you take to make the bug appear?
+# How can the bug be fixed? (Incase you know)
 
-Links:
+# I want to participate in the discussion.
 
-https://www.google.com/#q=Aravind%20V.%20Nair
+Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214).
 
-https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
-
-[B]Reference:[/B]
+# Reference
 
 [URL="https://forum.xda-developers.com/showthread.php?t=1959445"]Partition Table Reference - XDA[/URL] by [MENTION=4372730]E:V:A[/MENTION]
 [URL="http://kernel-develop.blogspot.in/2012/05/how-to-generate-8660msimagembn.html"]Generate MSMimage.mbn[/URL]
