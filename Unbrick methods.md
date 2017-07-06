@@ -1,3 +1,6 @@
+```
+Before you begin, identify what type of brick you have first.
+```
 # Method 1 (QFIL):
 
 1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
