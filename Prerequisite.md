@@ -4,6 +4,6 @@
 
 * Go to Device Manager, right click on the bricked USB device (QHSUSB_BULK or Qualcomm HS-USB QDLoader 9008) and go to Properties, click on Driver, then select Uninstall. Check the box to remove driver files, if prompted.
 
-* Unplug all USB device. [Download and install Driver Booster by IObit](http://www.iobit.com/en/driver-booster.php) Click 'Toolkit from the top bar and then click 'Clean Unplugged Devices Data'.
+* Unplug all USB device. [Download and install Driver Booster by IObit](http://www.iobit.com/en/driver-booster.php) Click 'Toolkit from the top bar and then click 'Clean Unplugged Devices Data'. Reboot on completition.
 
 * You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. While you reboot press F8 multiple times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system.
