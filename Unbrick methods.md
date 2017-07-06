@@ -1,5 +1,9 @@
 ```
 Before you begin, identify what type of brick you have first.
+
+* A hardware bricked device has nothing but a black screen (nothing ever comes on the screen, not even a boot logo), it might vibrate when a power button is pressed and held for 20 seconds, has no Recovery partition, no adb mode, and no fastboot partition. The device might be detected in Linux and you might be able to even send commands to it. In Windows, the bricked device should be detected as QHSUSB_BULK USB or one of its variations. You might have a bricked device as a result of flashing a kernel meant for a different device (or a ROM meant for another device that included a kernel), tinkering with the boot logo or bootloader, or your attempt of unlocking the bootloader resulted in corrupting the boot partition. Use any method and try your luck. Once your display starts to work, go to method 5 and perform that to fully recover your device.
+
+* A software bricked device is one that might be stuck in a bootloop, but has a working bootloader, recovery partition, fastboot, or adb. If you press the power button and things appear on the screen and you are able to enter fastboot mode (Power + Volume Down) or recovery, then your device is soft bricked. Go straight to Method 5. DO NOT TRY OTHER METHODS NO MATTER WHAT HAPPENS UNLESS YOU HARD BRICK YOUR PHONE OF COURSE!!
 ```
 # Method 1 (QFIL):
 
@@ -32,7 +36,7 @@ First, identify your situation:
 
 Once in fastboot mode, do one of this (Everything should be in the root folder instead of sub-folders):
 
-Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier.
+Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier. Also, please unlock your bootloader before proceeding any further as you would render your device back to a hard bricked state or completely unusable state otherwise.
 
 ## Automatic :
 
