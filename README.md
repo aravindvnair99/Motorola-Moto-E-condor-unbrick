@@ -1,6 +1,24 @@
 # Motorola-Moto-E-XT1022-condor-unbrick
 Tools for Motorola Moto E XT1022 condor unbrick
 
+# Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# Authors
+
+* **Aravind V. Nair** - *All development*- [AravindVNair99](https://github.com/aravindvnair99)
+
+See also the list of [contributors](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/graphs/contributors) who participated in this project.
+
+# Questions, FAQ, etc
+
+Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214).
+
 Check here first on my XDA DevDB project before proceeding: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
 > Read through my XDA DevDB post in the link above before proceeding any further.
@@ -78,21 +96,3 @@ Fastboot is three different things with the same name: A protocol for communicat
 # Prerequsite:
 
 Please read [Prerequisite](Prerequisite.md) file for details.
-
-# Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
-
-# License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-# Authors
-
-* **Aravind V. Nair** - *All development*- [AravindVNair99](https://github.com/aravindvnair99)
-
-See also the list of [contributors](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/graphs/contributors) who participated in this project.
-
-# Questions, FAQ, etc
-
-Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214).
