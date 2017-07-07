@@ -20,18 +20,18 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 
 # Reference
 
-[URL="https://forum.xda-developers.com/showthread.php?t=1959445"]Partition Table Reference - XDA[/URL] by [MENTION=4372730]E:V:A[/MENTION]
-[URL="http://kernel-develop.blogspot.in/2012/05/how-to-generate-8660msimagembn.html"]Generate MSMimage.mbn[/URL]
-[URL="http://www.androidbrick.com/ultimate-qualcomm-snapdragon-unbrick-guide-snapdragons-are-unbrickable-qhsusb_dload_qpst_qfil_edl/"]Ultimate Qualcomm Snapdragon Unbrick Guide, Snapdragon’s are UNBRICKABLE ![/URL]
-[URL="https://androidmtk.com/download-qpst-flash-tool"]Download QPST flash tool[/URL]
-[URL="http://mytabletguru.com/how-to-flash-qualcomm-cpu/"]How to flash MBN File using QPST (QFIL) tool?[/URL]
-[URL="http://cellphonetrackers.org/qhsusb_dload-fix-qualcomm-soc.html"]Possible QHSUSB_DLOAD fix for all Qualcomm devices[/URL]
-[URL="https://en.wikipedia.org/wiki/GUID_Partition_Table"]GUID Partition Table (GPT) - Wikipedia[/URL]
-[URL="https://en.wikipedia.org/wiki/Master_boot_record"]Master Boot Record (MBR) - Wikipedia[/URL]
-[URL="https://github.com/MotorolaMobilityLLC"]MotorolaMobilityLLC - GitHub[/URL]
-[URL="https://github.com/MotorolaMobilityLLC/kernel-msm/tree/kitkat-4.4.4-release-condor-repw"]Condor 4.4.4 Linux Kernel by Motorola - GitHub[/URL]
-[URL="https://forum.xda-developers.com/showthread.php?t=1978703"]Building Bootloaders on Qualcomm Devices - XDA[/URL] by [MENTION=4372730]E:V:A[/MENTION]
-[URL="https://www.codechef.com/ide"]Online IDE - Codechef[/URL]
+* [Partition Table Reference - XDA](https://forum.xda-developers.com/showthread.php?t=1959445)
+* [Generate MSMimage.mbn](http://kernel-develop.blogspot.in/2012/05/how-to-generate-8660msimagembn.html)
+* [Ultimate Qualcomm Snapdragon Unbrick Guide, Snapdragon’s are UNBRICKABLE !](http://www.androidbrick.com/ultimate-qualcomm-snapdragon-unbrick-guide-snapdragons-are-unbrickable-qhsusb_dload_qpst_qfil_edl/)
+* [Download QPST flash tool](https://androidmtk.com/download-qpst-flash-tool)
+* [How to flash MBN File using QPST (QFIL) tool?](http://mytabletguru.com/how-to-flash-qualcomm-cpu/)
+* [Possible QHSUSB_DLOAD fix for all Qualcomm devices](http://cellphonetrackers.org/qhsusb_dload-fix-qualcomm-soc.html)
+* [GUID Partition Table (GPT) - Wikipedia](https://en.wikipedia.org/wiki/GUID_Partition_Table)
+* [Master Boot Record (MBR) - Wikipedia](https://en.wikipedia.org/wiki/Master_boot_record)
+* [MotorolaMobilityLLC - GitHub](https://github.com/MotorolaMobilityLLC)
+* [URL="https://github.com/MotorolaMobilityLLC/kernel-msm/tree/kitkat-4.4.4-release-condor-repw"]Condor 4.4.4 Linux Kernel by Motorola - GitHub[/URL]
+* [Building Bootloaders on Qualcomm Devices - XDA](https://forum.xda-developers.com/showthread.php?t=1978703)
+* [Online IDE - Codechef](https://www.codechef.com/ide)
 [URL="https://en.wikipedia.org/wiki/EFI_system_partition"]EFI System Partition (ESP) - Wikipedia[/URL]
 [URL="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface"]Unified Extensible Firmware Interface (UEFI) - Wikipedia[/URL]
 [URL="https://retdec.com/decompilation/"]Retargetable Decompiler[/URL]
