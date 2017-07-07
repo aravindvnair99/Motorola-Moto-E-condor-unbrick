@@ -1,21 +1,21 @@
 # Motorola-Moto-E-XT1022-condor-unbrick
 Tools for Motorola Moto E XT1022 condor unbrick
 
-# Contributing
+# :octocat: How to contribute?
 
 Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
 
-# License
+# :scroll: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Authors
+# :octocat: Authors
 
 * **Aravind V. Nair** - *All development*- [AravindVNair99](https://github.com/aravindvnair99)
 
 See also the list of [contributors](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/graphs/contributors) who participated in this project.
 
-# Questions, FAQ, etc
+# :trident: Questions, FAQ, etc
 
 Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214).
 
@@ -53,14 +53,14 @@ DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN R
 
 A hard bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Manager and doesn't show anything on display.
 
-# Moto E brick happens when:
+# :heavy_exclamation_mark: Moto E brick happens when:
 
 * Downgrading to stock 4.4.2 from stock 5.0.x (If correct bootloader is present, no issues)
 * Take OTA from stock 4.4.2 to stock 4.4.4 (If correct bootloader is present, no issues)
 
 Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
 
-# File IDs and descriptions (Please note OEMs in many cases change default names):
+# :book: File IDs and descriptions (Please note OEMs in many cases change default names):
 
 * 8x10_msimage.mbn - bootloader
 * MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
@@ -68,7 +68,7 @@ Fastboot is three different things with the same name: A protocol for communicat
 * patch0.xml - patch definition of the partitions
 * NON-HLOS.bin - Modem/baseband/radio firmware files
 
-# Common terms:
+# :book: Common terms:
 
 1. PBL = Primary Boot Loader
 2. SBL = Secondary Boot Loader
@@ -87,7 +87,7 @@ Fastboot is three different things with the same name: A protocol for communicat
 15. HLOS = High Level OS (Normal boot up mode)
 16. QFIT = Qualcomm Factory Image Tools
 
-# Partition -> File match -> Description:
+# :book: Partition -> File match -> Description:
 
 1. Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
 2. Boot -> boot.img
@@ -97,6 +97,6 @@ Fastboot is three different things with the same name: A protocol for communicat
 6. Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
 7. PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
 
-# Prerequsite:
+# :heavy_exclamation_mark: Prerequsite aka requirements:
 
 Please read [Prerequisite](Prerequisite.md) file for details.
