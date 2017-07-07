@@ -21,9 +21,9 @@ Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/ge
 
 Check here first on my XDA DevDB project before proceeding: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
-# Changelog
+# :scroll: Changelog
 
-I frequently update and patch things in this repository as I get time. Be sure to check the [changelog here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/commits/master)
+I frequently update and patch things in this repository as I get time. Be sure to check the [changelog here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/commits/master).
 
 > Read through my XDA DevDB post in the link above before proceeding any further.
 
