@@ -29,7 +29,7 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 * [GUID Partition Table (GPT) - Wikipedia](https://en.wikipedia.org/wiki/GUID_Partition_Table)
 * [Master Boot Record (MBR) - Wikipedia](https://en.wikipedia.org/wiki/Master_boot_record)
 * [MotorolaMobilityLLC - GitHub](https://github.com/MotorolaMobilityLLC)
-* [URL="https://github.com/MotorolaMobilityLLC/kernel-msm/tree/kitkat-4.4.4-release-condor-repw"]Condor 4.4.4 Linux Kernel by Motorola - GitHub[/URL]
+* [Condor 4.4.4 Linux Kernel by Motorola - GitHub](https://github.com/MotorolaMobilityLLC/kernel-msm/tree/kitkat-4.4.4-release-condor-repw)
 * [Building Bootloaders on Qualcomm Devices - XDA](https://forum.xda-developers.com/showthread.php?t=1978703)
 * [Online IDE - Codechef](https://www.codechef.com/ide)
 * [EFI System Partition (ESP) - Wikipedia](https://en.wikipedia.org/wiki/EFI_system_partition)
