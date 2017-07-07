@@ -32,14 +32,14 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 * [URL="https://github.com/MotorolaMobilityLLC/kernel-msm/tree/kitkat-4.4.4-release-condor-repw"]Condor 4.4.4 Linux Kernel by Motorola - GitHub[/URL]
 * [Building Bootloaders on Qualcomm Devices - XDA](https://forum.xda-developers.com/showthread.php?t=1978703)
 * [Online IDE - Codechef](https://www.codechef.com/ide)
-[URL="https://en.wikipedia.org/wiki/EFI_system_partition"]EFI System Partition (ESP) - Wikipedia[/URL]
-[URL="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface"]Unified Extensible Firmware Interface (UEFI) - Wikipedia[/URL]
-[URL="https://retdec.com/decompilation/"]Retargetable Decompiler[/URL]
-[URL="http://www.newandroidbook.com/Articles/aboot.html"]Reverse Engineering Android's aboot[/URL]
-[URL="http://vm1.duckdns.org/Public/Qualcomm-Secure-Boot/Qualcomm-Secure-Boot.htm"]Notes about Qualcomm Secure Boot and Motorola High Assurance Boot (HAB)[/URL]
-[URL="https://forum.xda-developers.com/moto-g/general/generating-singleimage-bin-t3008047"]Generating singleimage.bin[/URL]
-[URL="http://x86asm.net/articles/uefi-programming-first-steps/"]UEFI Programming - First Steps[/URL]
-[URL="https://www.codeproject.com/Articles/36907/How-to-develop-your-own-Boot-Loader"]How to develop your own Boot Loader?[/URL]
-[URL="https://en.wikibooks.org/wiki/X86_Assembly/Bootloaders"]x86 Assembly/Bootloaders - wikiBooks[/URL]
-[URL="https://forum.xda-developers.com/showthread.php?t=2450045"][GUIDE] Making Dump Files Out of Android Device Partitions[/URL] by [MENTION=369057]majdinj[/MENTION]
-[URL="https://forum.xda-developers.com/showthread.php?t=2136738"]SHV-E160L Debricking Tool / Qualcomm Tool Pack V2-1[/URL] by [MENTION=4864296]darkspr1te[/MENTION]
+* [EFI System Partition (ESP) - Wikipedia](https://en.wikipedia.org/wiki/EFI_system_partition)
+* [Unified Extensible Firmware Interface (UEFI) - Wikipedia](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
+* [Retargetable Decompiler](https://retdec.com/decompilation/)
+* [Reverse Engineering Android's aboot](http://www.newandroidbook.com/Articles/aboot.html)
+* [Notes about Qualcomm Secure Boot and Motorola High Assurance Boot (HAB)](http://vm1.duckdns.org/Public/Qualcomm-Secure-Boot/Qualcomm-Secure-Boot.htm)
+* [Generating singleimage.bin](https://forum.xda-developers.com/moto-g/general/generating-singleimage-bin-t3008047)
+* [UEFI Programming - First Steps](http://x86asm.net/articles/uefi-programming-first-steps/)
+* [How to develop your own Boot Loader?](https://www.codeproject.com/Articles/36907/How-to-develop-your-own-Boot-Loader)
+* [x86 Assembly/Bootloaders - wikiBooks](https://en.wikibooks.org/wiki/X86_Assembly/Bootloaders)
+* [Making Dump Files Out of Android Device Partitions](https://forum.xda-developers.com/showthread.php?t=2450045)
+* [SHV-E160L Debricking Tool / Qualcomm Tool Pack V2-1](https://forum.xda-developers.com/showthread.php?t=2136738)
