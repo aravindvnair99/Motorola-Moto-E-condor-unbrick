@@ -94,10 +94,10 @@ fastboot oem lock
 fastboot restart
 
 ```
-# Method 6 (JTag):
+# Method 6 (JTAG):
 
 ```
-Use this as a last resort if nothing works. JTag is strictly not for noobs.
+Use this as a last resort if nothing works. JTAG is strictly not for noobs.
 ```
 
-You can either buy a JTag programmer if you know how to use it and connect to the SoC or contact someone nearby in your locality who can do it for you. But before you try, ask Motorola for their pricing. In some places, contacting Motorola would be better than JTag. Do some research for the prices and the assurance before you proceed. JTag will surely work as long as the required files and tools are available. You get higher surety with Motorola for sure as they have the skilled people. **JTag is strictly not for noobs.**
+You can either buy a JTAG programmer if you know how to use it and connect to the SoC or contact someone nearby in your locality who can do it for you. But before you try, ask Motorola for their pricing. In some places, contacting Motorola would be better than JTAG. Do some research for the prices and the assurance before you proceed. JTAG will surely work as long as the required files and tools are available. You get higher surety with Motorola for sure as they have the skilled people. **JTAG is strictly not for noobs.**
