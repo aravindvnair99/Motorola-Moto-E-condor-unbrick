@@ -43,3 +43,5 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 * [x86 Assembly/Bootloaders - wikiBooks](https://en.wikibooks.org/wiki/X86_Assembly/Bootloaders)
 * [Making Dump Files Out of Android Device Partitions](https://forum.xda-developers.com/showthread.php?t=2450045)
 * [SHV-E160L Debricking Tool / Qualcomm Tool Pack V2-1](https://forum.xda-developers.com/showthread.php?t=2136738)
+* [Create partition.xml file manually](https://androidforums.com/threads/create-partition-xml-file-manually.1021067/)
+* [How To Create Partition.xml (GPT)](https://androidforums.com/threads/guide-how-to-create-partition-xml-gpt.1125433/)
