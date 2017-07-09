@@ -72,33 +72,41 @@ Fastboot is three different things with the same name: A protocol for communicat
 
 # :book: Common terms:
 
-1. PBL = Primary Boot Loader
-2. SBL = Secondary Boot Loader
-3. RPM = Resource and Power Management
-4. TZ = Trust Zone
-5. HDLC = High level Data Link Control
-6. MSM = Mobile Station Modem
-7. DMSS = Dual Mode Subscriber Station
-8. QDL = Qualcomm Download
-9. QHSUSB_DLOAD = Qualcomm High Speed USB Download
-10. EhostDL = Emergency Host Download
-11. DCN = Document Control Number, used by Qualcomm to track their thousands of documents
-12. QFIL = Qualcomm Flash Image Loader
-13. QPST = Qualcomm
-14. EDL = Emergency Download mode
-15. HLOS = High Level OS (Normal boot up mode)
-16. QFIT = Qualcomm Factory Image Tools
+* PBL = Primary Boot Loader
+* SBL = Secondary Boot Loader
+* RPM = Resource and Power Management
+* TZ = Trust Zone
+* HDLC = High level Data Link Control
+* MSM = Mobile Station Modem
+* DMSS = Dual Mode Subscriber Station
+* QDL = Qualcomm Download
+* QHSUSB_DLOAD = Qualcomm High Speed USB Download
+* EhostDL = Emergency Host Download
+* DCN = Document Control Number, used by Qualcomm to track their thousands of documents
+* QFIL = Qualcomm Flash Image Loader
+* QPST = Qualcomm
+* EDL = Emergency Download mode
+* HLOS = High Level OS (Normal boot up mode)
+* QFIT = Qualcomm Factory Image Tools
 
 # :book: Partition -> File match -> Description:
 
-1. Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
-2. Boot -> boot.img
-3. Recovery -> recovery.img ->
-4. Modem/Radio -> NON-HLOS.bin -> Contains radio drivers for mobile communication
-5. fsg -> fsg.mbn
-6. Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
-7. PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
+* Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
+* Boot -> boot.img
+* Recovery -> recovery.img ->
+* Modem/Radio -> NON-HLOS.bin -> Contains radio drivers for mobile communication
+* fsg -> fsg.mbn
+* Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
+* PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
 
 # :heavy_exclamation_mark: Prerequsite aka requirements:
 
 Please read [Prerequisite](Prerequisite.md) file for details.
+
+# :book: How to contact me?
+
+Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Contact%20me.md).
+
+# :book: How to unbrick?
+
+Please check my [XDA DevDB project here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) before checking [GitHub here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Unbrick%20methods.md).
