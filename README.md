@@ -23,6 +23,18 @@ Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/ge
 
 Check here first on my XDA DevDB project before proceeding: https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214
 
+# :heavy_exclamation_mark: Prerequsite aka requirements:
+
+Please read [Prerequisite](Prerequisite.md) file for details.
+
+# :book: How to contact me?
+
+Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Contact%20me.md).
+
+# :book: How to unbrick?
+
+Please check my [XDA DevDB project here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) before checking [GitHub here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Unbrick%20methods.md).
+
 # :scroll: Changelog
 
 I frequently update and patch things in this repository as I get time. Be sure to check the [changelog here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/commits/master).
@@ -30,7 +42,6 @@ I frequently update and patch things in this repository as I get time. Be sure t
 > Read through my XDA DevDB post in the link above before proceeding any further.
 
 ```
-
 DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
 
 
@@ -50,7 +61,6 @@ DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN R
 
 
 DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
 ```
 
 A hard bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Manager and doesn't show anything on display.
@@ -98,15 +108,3 @@ Fastboot is three different things with the same name: A protocol for communicat
 * fsg -> fsg.mbn
 * Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
 * PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
-
-# :heavy_exclamation_mark: Prerequsite aka requirements:
-
-Please read [Prerequisite](Prerequisite.md) file for details.
-
-# :book: How to contact me?
-
-Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Contact%20me.md).
-
-# :book: How to unbrick?
-
-Please check my [XDA DevDB project here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) before checking [GitHub here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Unbrick%20methods.md).
