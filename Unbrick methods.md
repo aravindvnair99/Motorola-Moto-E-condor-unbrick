@@ -101,3 +101,16 @@ Use this as a last resort if nothing works. JTAG is strictly not for noobs.
 ```
 
 You can either buy a JTAG programmer if you know how to use it and connect to the SoC or contact someone nearby in your locality who can do it for you. But before you try, ask Motorola for their pricing. In some places, contacting Motorola would be better than JTAG. Do some research for the prices and the assurance before you proceed. JTAG will surely work as long as the required files and tools are available. You get higher surety with Motorola for sure as they have the skilled people. **JTAG is strictly not for noobs.**
+
+# Method 7 (Manual):
+
+```
+Use this as a last resort if nothing works. This is strictly not for noobs. You need lot of equipment, research and patience. I have put up the basic steps here.
+```
+
+* Remove out the eMMC memory card from the motherboard. **This is strictly not for noobs.**
+* Solder it onto a SD card reader with the correct pins.
+* Connect SD card to computer.
+* Wipe the card.
+* Partition using Linux and put appropiate data with correct filesystems.
+* Attach the eMMC back onto your phone and voila! Don't forget to dance! You just became an expert geek!
