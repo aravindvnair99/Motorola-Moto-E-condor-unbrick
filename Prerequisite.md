@@ -23,28 +23,31 @@ shutdown /r /t 0
 
 * Close all open things.
 * Click on Start button and choose "All Programs" -> "Accessories" -> right click on "Command Prompt" and choose "Run as administrator". * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
-`
+
+```
 bcdedit.exe -set loadoptions ENABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING OFF
 shutdown /r /t 0
-`
+```
 
 # Disable Driver Signature Enforcement For Windows 8/8.1/10 editions:
 
 * Right click on Windows button and then click "Command Prompt (Admin)" OR Press 'Windows key + X' and press 'a'.
 * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
-`
+
+```
 bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING ON
 shutdown /r /t 0
-`
+```
 
 # Enable Driver Signature Enforcement For Windows 8/8.1/10 editions:
 
 * Right click on Windows button and then click "Command Prompt (Admin)" OR Press 'Windows key + X' and press 'a'.
 * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
-`
+
+```
 bcdedit.exe -set loadoptions ENABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING OFF
 shutdown /r /t 0
-`
+```
