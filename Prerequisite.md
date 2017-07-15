@@ -6,4 +6,44 @@
 
 * Unplug all USB device. [Download and install Driver Booster by IObit](http://www.iobit.com/en/driver-booster.php) Click 'Toolkit from the top bar and then click 'Clean Unplugged Devices Data'. Reboot on completition.
 
-* You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. On Windows 7/8/10, while you reboot press F8 multiple times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system. Remember to do this step everytime you restart your PC until you are done unbricking. Once you finish unbricking, restart your PC normally.
+* You need to install Riff BOX driver for Blank Flash to work. Extract Riff BOX drivers in a folder (you will find both 32bit and 64bit versions). Open dseo13b.exe and choose "Sign a System File", follow the program instructions and there you go, the program will ask you to reboot. On Windows 7/8/10, while you reboot press F8 multiple times until you get a menu, choose "Disable Driver Signature Enforcement" and Windows will boot automatically after that. To enable, simply restart your system. Remember to do this step everytime you restart your PC until you are done unbricking. Once you finish unbricking, restart your PC normally. Or just follow the steps below instead for the permanent method.
+
+# Disable Driver Signature Enforcement For Windows 7 editions:
+
+* Close all open things.
+* Click on Start button and choose "All Programs" -> "Accessories" -> right click on "Command Prompt" and choose "Run as administrator". * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
+`
+bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING ON
+shutdown /r /t 0
+`
+
+# Enable Driver Signature Enforcement For Windows 7 editions:
+
+* Close all open things.
+* Click on Start button and choose "All Programs" -> "Accessories" -> right click on "Command Prompt" and choose "Run as administrator". * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
+`
+bcdedit.exe -set loadoptions ENABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING OFF
+shutdown /r /t 0
+`
+
+# Disable Driver Signature Enforcement For Windows 8/8.1/10 editions:
+
+* Right click on Windows button and then click "Command Prompt (Admin)" OR Press 'Windows key + X' and press 'a'.
+* Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
+`
+bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING ON
+shutdown /r /t 0
+`
+
+# Enable Driver Signature Enforcement For Windows 8/8.1/10 editions:
+
+* Right click on Windows button and then click "Command Prompt (Admin)" OR Press 'Windows key + X' and press 'a'.
+* Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
+`
+bcdedit.exe -set loadoptions ENABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING OFF
+shutdown /r /t 0
+`
