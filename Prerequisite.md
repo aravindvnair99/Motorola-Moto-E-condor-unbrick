@@ -13,11 +13,11 @@
 * Close all open things.
 * Click on Start button and choose "All Programs" -> "Accessories" -> right click on "Command Prompt" and choose "Run as administrator". * Click yes on the prompt and type your password if asked. Next type these one by one and type enter after each command:
 
-`
+```
 bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING ON
 shutdown /r /t 0
-`
+```
 
 # Enable Driver Signature Enforcement For Windows 7 editions:
 
