@@ -4,27 +4,38 @@ Before you begin, identify what type of brick you have first.
 * A hardware bricked device has nothing but a black screen (nothing ever comes on the screen, not even a boot logo), it might vibrate when a power button is pressed and held for 20 seconds, has no Recovery partition, no adb mode, and no fastboot partition. The device might be detected in Linux and you might be able to even send commands to it. In Windows, the bricked device should be detected as QHSUSB_BULK USB or one of its variations. You might have a bricked device as a result of flashing a kernel meant for a different device (or a ROM meant for another device that included a kernel), tinkering with the boot logo or bootloader, or your attempt of unlocking the bootloader resulted in corrupting the boot partition. Use any method and try your luck. Once your display starts to work, go to method 5 and perform that to fully recover your device.
 
 * A software bricked device is one that might be stuck in a bootloop, but has a working bootloader, recovery partition, fastboot, or adb. If you press the power button and things appear on the screen and you are able to enter fastboot mode (Power + Volume Down) or recovery, then your device is soft bricked. Go straight to Method 5. DO NOT TRY OTHER METHODS NO MATTER WHAT HAPPENS UNLESS YOU HARD BRICK YOUR PHONE OF COURSE!!
+
+* Methods 5, 6 and 7 are perfectly working. Your mileage will vary with other methods.
 ```
+
 # Method 1 (QFIL):
 
-1. Install latest QPST tools (I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
-2. Choose Flat Build and select the COM port to which the phone is connected.
-3. Select the programmer (mbn file) for MSM8x10 and then choose the rawprogram0.xml and patch0.xml by clicking 'Load XML'.
-4. Click Download and watch your phone come back to life. Please try all combinations of the files I uploaded. You can download from the folders on my GitHub repository.
+* Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
+* Install latest QPST tools (I have uploaded all latest files even though I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
+* Choose Flat Build under 'Select build type'.
+* Select the COM port to which the phone is connected by clicking 'Select port'.
+* Select the programmer by clicking 'Browse' and then choose the rawprogram0.xml and patch0.xml by clicking 'Load XML'. Make sure all files are in one folder and not in sub folders or other folders.
+* Click Download and watch your phone come back to life.
+
+## Note:
+
+* Please try all combinations of the files I uploaded. You can download from the folders on my GitHub repository.
+* The files aren't perfect as I haven't finished making them. Wait patiently for 24 hours before next try. For me, the phone suddenly powered on when I went out and came back home.
+* After each try, try to boot into fastboot mode. If successful, go straight to Method 5 without any delay. And your phone should be in perfect condition.
 
 # Method 2 (Blank Flash):
 
-1. Don't try. Not working. You might make the situation worse. All files aren't present.
-2. Blanklash won't work unless Motorola releases the signed files. It's not worth of my time to sit and sign the files with proper checksum. SORRY!
-3. Those of you who already tried will most probably have to replace motherboard due to bootloader/SoC internal damage.
+* Don't try. Not working. You might make the situation worse. All files aren't present.
+* Blanklash won't work unless Motorola releases the signed files. It's not worth of my time to sit and sign the files with proper checksum. SORRY!
+* Those of you who already tried will most probably have to replace motherboard due to bootloader/SoC internal damage.
 
 # Method 3 (eMMC Software Download):
 
-1. Don't try. Not working. You might make the situation worse. All files aren't present.
+* Don't try. Not working. You might make the situation worse. All files aren't present.
 
 # Method 4 (Mi Flash Tool):
 
-1. Don't try. Not working. You might make the situation worse. All files aren't present.
+* Don't try. Not working. You might make the situation worse. All files aren't present.
 
 # Method 5 (Fastboot):
 
@@ -36,20 +47,23 @@ First, identify your situation:
 
 Once in fastboot mode, do one of this (Everything should be in the root folder instead of sub-folders):
 
-Note: It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier. Also, please unlock your bootloader before proceeding any further as you would render your device back to a hard bricked state or completely unusable state otherwise.
+### Note:
+
+* It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier.
+* Please unlock your bootloader before proceeding any further as you would render your device back to a hard bricked state or completely unusable state otherwise.
 
 ## Automatic :
 
 ### Windows Users:
 
-1. Get 'Fastboot Unbrick.bat', 'fastboot' and your firmware files in one folder.
-2. Next, double click on Fastboot Unbrick.bat and watch your phone come back to life.
+* Get 'Fastboot Unbrick.bat', 'fastboot' and your firmware files in one folder.
+* Next, double click on Fastboot Unbrick.bat and watch your phone come back to life.
 
 ### Linux and Mac Users:
 
-1. Get 'Fastboot Unbrick.sh', 'fastboot' and your firmware files in one folder.
-2. Open terminal and navigate to this folder. Or simply right click on an empty space in the folder and choose 'Open in Terminal'.
-3. Type the following commands to execute the script in terminal after giving permissions using chmod and watch your phone come back to life.:
+* Get 'Fastboot Unbrick.sh', 'fastboot' and your firmware files in one folder.
+* Open terminal and navigate to this folder. Or simply right click on an empty space in the folder and choose 'Open in Terminal'.
+* Type the following commands to execute the script in terminal after giving permissions using chmod and watch your phone come back to life.:
 
 ```
 chmod +x "Fastboot Unbrick.sh"
