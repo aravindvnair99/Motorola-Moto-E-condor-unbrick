@@ -109,7 +109,7 @@ Use this as a last resort if nothing works. This is strictly not for noobs. You 
 ```
 
 * Remove out the eMMC memory card from the motherboard. **This is strictly not for noobs.**
-* Solder it onto a SD card reader with the correct pins. [Reference image.](https://forum.xda-developers.com/attachment.php?attachmentid=4212380&d=1500119523){:target="_blank"}
+* Solder it onto a SD card reader with the correct pins. <a href="https://forum.xda-developers.com/attachment.php?attachmentid=4212380&d=1500119523" target="_blank">Reference image.</a>
 * Connect SD card to computer.
 * Wipe the card.
 * Partition using Linux and put appropiate data with correct filesystems.
