@@ -98,6 +98,7 @@ Fastboot is three different things with the same name: A protocol for communicat
 * EDL = Emergency Download mode
 * HLOS = High Level OS (Normal boot up mode)
 * QFIT = Qualcomm Factory Image Tools
+* ABOOT = Application Bootloader
 
 # :book: Partition -> File match -> Description:
 
@@ -108,3 +109,4 @@ Fastboot is three different things with the same name: A protocol for communicat
 * fsg -> fsg.mbn
 * Bootloader -> motoboot.img -> Contains the bootloader without which the phone won't power on
 * PDS -> pds.img -> Contains information specific to your device: MEID, IMEI, MAC address, serial number, etc.
+* The Application Bootloader ABOOT boots the Android kernel/Recovery kernel. It is the mechanism to download images onto the device from a host machine (like Windows/Linux PC). The Primary Bootloader boot part is a computer program that loads the main operating system or runtime environment for the computer after completion of the self-tests. The PBL acts as a communication engine to download the Secondary Boot Loader (SBL) into the internal RAM and then activates it. The SBL adds functions for erase and programming of flash memory and EEPROM; it also handles the actual download of new or updated software. This allows a minimum ROM utilization by the PBL.
