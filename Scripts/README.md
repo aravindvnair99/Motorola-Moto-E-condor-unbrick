@@ -20,7 +20,9 @@ Unpacks the given ramdisk file.
 
 > su ./unpack_ramdisk <ramdiskFile>
 
-# repack_ramdisk - repacks the ramdisk from the given directory (found online and modified slightly to take a directory)
+# repack_ramdisk
+
+Repacks the ramdisk from the given directory.
 
 > su ./repack_ramdisk <ramdiskDirectory> [outputFile]
     
