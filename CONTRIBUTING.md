@@ -1,4 +1,4 @@
-All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
+All contributions are welcome! Code, documentation, softwares, scripts, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
 
 # How do I contact you?
 
@@ -45,3 +45,4 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 * [SHV-E160L Debricking Tool / Qualcomm Tool Pack V2-1](https://forum.xda-developers.com/showthread.php?t=2136738)
 * [Create partition.xml file manually](https://androidforums.com/threads/create-partition-xml-file-manually.1021067/)
 * [How To Create Partition.xml (GPT)](https://androidforums.com/threads/guide-how-to-create-partition-xml-gpt.1125433/)
+* [How to program eMMC images into blank flash?](http://kernel-develop.blogspot.in/2012/05/how-to-program-emmc-images-into-blank.html)
