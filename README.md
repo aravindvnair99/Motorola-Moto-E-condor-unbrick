@@ -113,4 +113,10 @@ Fastboot is three different things with the same name: A protocol for communicat
 
 # :book: Original Firmware:
 
-* [RETAILDSDSALL XT1022 4.4.4](https://drive.google.com/file/d/0B05Crz57q4zgY2lWUE9KZjlGeVU/view)
+* [XT1019 (CDMA)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVMGNZVWZPOTYyVU0)
+* [XT1021 (Single SIM)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVei1vdnJhekpDMWs)
+* [XT1022 (Dual SIM)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVbjh0REhNZHpDRFk)
+* [XT1023 (AWS)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVblQ3MmR1Z3JTd0E)
+* [XT1025 (Dual SIM with Digital TV)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVNXNsVHh2NFNrNVE)
+* [XT830C (Straight Talk)](https://www.androidfilehost.com/?fid=24052804347833874)
+* [If nothing works, pick from here for your respective model](https://forum.xda-developers.com/showthread.php?t=2755857)
