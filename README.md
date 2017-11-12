@@ -74,11 +74,11 @@ Fastboot is three different things with the same name: A protocol for communicat
 
 # :book: File IDs and descriptions (Please note OEMs in many cases change default names):
 
-* 8x10_msimage.mbn - bootloader
+* 8x10_msimage.mbn / motoboot.img - bootloader
 * MPR8x10.mbn - flasher, ram (the format was hex before MSM/MPRG8974)
 * rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
 * patch0.xml - patch definition of the partitions
-* NON-HLOS.bin - Modem/baseband/radio firmware files
+* NON-HLOS.bin / modem.img - Modem/baseband/radio firmware files
 
 # :book: Common terms:
 
@@ -100,7 +100,7 @@ Fastboot is three different things with the same name: A protocol for communicat
 * QFIT = Qualcomm Factory Image Tools
 * ABOOT = Application Bootloader
 
-# :book: Partition -> File match -> Description:
+# :book: Partition -> File match -> Description: (Motorola specific)
 
 * Logo -> logo.bin -> Boot, battery full, bootloader unlocked, battery low power and battery unpluged logos are stored here.
 * Boot -> boot.img
