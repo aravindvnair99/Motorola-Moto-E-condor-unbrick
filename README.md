@@ -79,6 +79,8 @@ Fastboot is three different things with the same name: A protocol for communicat
 * rawprogram0.xml - partition table definition, it differs if we have a 64GB phone or 32GB or a 16GB, name differs as rawprogram0_32G.xml or rawprogram0_64G.xml or rawprogram0_64G.xml, etc
 * patch0.xml - patch definition of the partitions
 * NON-HLOS.bin / modem.img - Modem/baseband/radio firmware files
+* aboot.img - Application Bootloader boots the Android kernel/Recovery kernel
+* boot.img - Primary Bootloader is a computer program that loads the main operating system or runtime environment for the computer after completion of the self-tests. It acts as a communication engine to download the Secondary Boot Loader (SBL) into the internal RAM and then activates it. The SBL adds functions for erase and programming of flash memory and EEPROM; it also handles the actual download of new or updated software. This allows a minimum ROM utilization by the PBL.
 
 # :book: Common terms:
 
