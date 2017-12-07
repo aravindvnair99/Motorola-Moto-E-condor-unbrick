@@ -122,3 +122,5 @@ Fastboot is three different things with the same name: A protocol for communicat
 * [XT1025 (Dual SIM with Digital TV)](https://drive.google.com/drive/folders/0Bw_NsGJYGFyVNXNsVHh2NFNrNVE)
 * [XT830C (Straight Talk)](https://www.androidfilehost.com/?fid=24052804347833874)
 * [If nothing works, pick from here for your respective model](https://forum.xda-developers.com/showthread.php?t=2755857)
+
+Note: To find out which firmware you have, type ~ fastboot getvar ro.build.version.full ~ in fastboot mode.
