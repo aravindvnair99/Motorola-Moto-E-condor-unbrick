@@ -1,1 +1,1 @@
-Sorry, GitHub supports maximum 25MB and the file is 31MB. So, please download from here: http://en.miui.com/thread-345974-1-1.html
+Click [here](https://androidmtk.com/download-xiaomi-mi-flash-tool) to download Xiaomi Mi FLash Tool.
