@@ -56,12 +56,12 @@ Once in fastboot mode, do one of this (Everything should be in the root folder i
 
 ### Windows Users:
 
-* Get 'Fastboot Unbrick.bat', 'fastboot' and your firmware files in one folder.
+* Get '[Fastboot Unbrick.bat](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
 * Next, double click on Fastboot Unbrick.bat and watch your phone come back to life.
 
 ### Linux and Mac Users:
 
-* Get 'Fastboot Unbrick.sh', 'fastboot' and your firmware files in one folder.
+* Get '[Fastboot Unbrick.sh](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
 * Open terminal and navigate to this folder. Or simply right click on an empty space in the folder and choose 'Open in Terminal'.
 * Type the following commands to execute the script in terminal after giving permissions using chmod and watch your phone come back to life.:
 
@@ -70,6 +70,11 @@ chmod +x "Fastboot Unbrick.sh"
 
 sudo ./"Fastboot Unbrick.sh"
 ```
+
+#### Links:
+
+* [Fastboot script](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)
+* [Softwares](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Software)
 
 ## Manual:
 
