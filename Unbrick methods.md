@@ -89,7 +89,13 @@ fastboot flash boot boot.img
 
 fastboot flash recovery recovery.img
 
-fastboot flash system system.img
+fastboot flash system system.img_sparsechunk.0
+
+fastboot flash system system.img_sparsechunk.1
+
+fastboot flash system system.img_sparsechunk.2
+
+fastboot flash system system.img_sparsechunk.3
 
 fastboot flash modem NON-HLOS.bin
 
