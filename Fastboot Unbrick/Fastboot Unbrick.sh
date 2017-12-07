@@ -29,6 +29,8 @@ fastboot flash system system.img_sparsechunk.1
 sleep 2
 fastboot flash system system.img_sparsechunk.2
 sleep 2
+fastboot flash system system.img_sparsechunk.3
+sleep 2
 echo
 echo "Flashing modem partition"
 echo
