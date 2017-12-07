@@ -33,6 +33,8 @@ Before you begin, identify what type of brick you have first.
 
 * Don't try. Not working. You might make the situation worse. All files aren't present.
 
+UPDATE: Works. Will be adding details soon after testing.
+
 # Method 4 (Mi Flash Tool):
 
 * Don't try. Not working. You might make the situation worse. All files aren't present.
