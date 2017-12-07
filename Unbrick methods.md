@@ -5,7 +5,7 @@ Before you begin, identify what type of brick you have first.
 
 * A software bricked device is one that might be stuck in a bootloop, but has a working bootloader, recovery partition, fastboot, or adb. If you press the power button and things appear on the screen and you are able to enter fastboot mode (Power + Volume Down) or recovery, then your device is soft bricked. Go straight to Method 5. DO NOT TRY OTHER METHODS NO MATTER WHAT HAPPENS UNLESS YOU HARD BRICK YOUR PHONE OF COURSE!!
 
-* Methods 5, 6 and 7 are perfectly working. Your mileage will vary with other methods.
+* Methods 3, 5, 6 and 7 are perfectly working. Your mileage will vary with other methods.
 ```
 
 # Method 1 (QFIL):
