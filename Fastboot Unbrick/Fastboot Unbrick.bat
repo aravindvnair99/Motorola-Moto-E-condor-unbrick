@@ -32,6 +32,8 @@ fastboot flash system system.img_sparsechunk.1
 timeout /t 2
 fastboot flash system system.img_sparsechunk.2
 timeout /t 2
+fastboot flash system system.img_sparsechunk.3
+timeout /t 2
 echo.
 echo Flashing modem partition
 echo.
