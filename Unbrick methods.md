@@ -81,7 +81,6 @@ Once in fastboot mode, do one of this (Everything should be in the root folder i
 
 * It's better to run the 'Fastboot Unbrick.bat' script to make everything automatic and easier.
 * Please unlock your bootloader before proceeding any further as you would render your device back to a hard bricked state or completely unusable state otherwise.
-* 
 
 ## Automatic :
 
