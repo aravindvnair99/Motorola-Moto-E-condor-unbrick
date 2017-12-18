@@ -41,28 +41,6 @@ I frequently update and patch things in this repository as I get time. Be sure t
 
 > Read through my XDA DevDB post in the link above before proceeding any further.
 
-```
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-
-
-DO NOT DOWNLOAD OR FORK ANYTHING. FILES ARE STILL BEING MADE!! TRY AT YOUR OWN RISK!!
-```
-
 A hard bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Device Manager and doesn't show anything on display.
 
 # :heavy_exclamation_mark: Moto E brick happens when:
