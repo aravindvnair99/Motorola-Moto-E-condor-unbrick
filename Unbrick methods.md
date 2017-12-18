@@ -5,11 +5,14 @@ Before you begin, identify what type of brick you have first.
 
 * A software bricked device is one that might be stuck in a bootloop, but has a working bootloader, recovery partition, fastboot, or adb. If you press the power button and things appear on the screen and you are able to enter fastboot mode (Power + Volume Down) or recovery, then your device is soft bricked. Go straight to Method 5. DO NOT TRY OTHER METHODS NO MATTER WHAT HAPPENS UNLESS YOU HARD BRICK YOUR PHONE OF COURSE!!
 
-* Methods 3, 5, 6 and 7 are perfectly working. Your mileage will vary with other methods.
+* Go through the [Prerequisites](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
+
+* Methods 3, 5, 6 and 7 are perfectly working. Your mileage will vary with other methods. Please don't give up on first try. You need to try a lot of times and test your luck.
 ```
 
 # Method 1 (QFIL):
 
+* Method 3 is the only way to unbrick on newer Qualcomm devices. Method 1 is for old devices.
 * Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
 * Install latest QPST tools (I have uploaded all latest files even though I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 * Choose Flat Build under 'Select build type'.
@@ -31,9 +34,34 @@ Before you begin, identify what type of brick you have first.
 
 # Method 3 (eMMC Software Download):
 
-* Don't try. Not working. You might make the situation worse. All files aren't present.
+## Requirements for this method:
 
-UPDATE: Works. Will be adding details soon after testing.
+* If you are on QHSUSB_BULK mode, get out of the mode by installing necessary drivers. Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
+* Get an microSD card that has a minimum storage capacity of 4GB. You can try with 4GB and 8GB as some reported success with 4GB, while others reported success with 8GB. Speed must be UHS1, UHS2 or UHS3. Class10 aka C10 and below microSD cards didn't work for anyone except one person as far as people have reported to me. SO, please get UHS1 and above.
+* You need an exact duplicate of your phone. I mean, a different phone but same model number and CID. THe device chipset should be same. If working one is MSM8210, the bricked phone also should be MSM8210. The phone should also be bootloader unlocked, rooted and in perfect working condition. It should be running TWRP 3.2.1-0 or higher.
+* Make a full backup of the emmcblk0 in .img format. Name doesn't matter. You could name it backup.img for the sake of it. That's the internal EMMC storage card. Please try with loader.img and Loader.img also while using the `dd` command.
+
+## Steps to unbrick:
+
+* Before starting, factory reset the working phone. Don't setup any accounts. Keep the root access and bootloader unlocked state. Try this with Stock ROM and custom ROM.
+* Insert the microSD card into this phone. Format SD card as portable storage from within Android. Install [Terminal Emulator](https://play.google.com/store/apps/details?id=jackpal.androidterm) and [BusyBox](https://play.google.com/store/apps/details?id=stericson.busybox) on the phone.
+* Once BusyBox is installed, launch/open it and run/install its dependencies/files by clicking on the appropriate key in the app.
+* Now, launch/open Terminal Emulator on the working phone and type the command below and press the enter key:
+```
+su
+```
+* You will be prompted to GRANT Terminal emulator **Root Access**, click **GRANT**.
+* Once root access has been granted, type the command below and hit the enter key:
+```
+dd if=/dev/block/mmcblk0 of=/sdcard/backup.img bs=1024 count=168960
+```
+* Wait for about 20 minutes or until Terminal Emulator completes the process. It will take sometime as it has to clone the entire internal storage to external.
+* Once it is done, check the Root Folder/Directory of the SD Card inserted on the phone. You will see a file named backup.img has been created. If this file doesn't work, try replacing `backup` with `Backup` or `Loader` or `loader` and try again. Don't rename the file. Do the `dd` again.
+* That's your Qualcomm device unbrick file. Copy the file onto your PC from the microSD card. Download DiskImageRev or Rufus or Win32 Disk Imager or similar imaging softwares and flash the Qualcomm device unbrick file you copied previously onto the microSD card using the softwares you downloaded. Try multiple softwares if one doesn't work.
+* Once the flashing aka writing is done, your microSD card is in a bootable state as all the GPT information has been created.
+* Make sure the bricked phone is powered off. If possible, remove the battery (advisable). Wait for 2 minutes and then insert the microSD card.
+* Then connect the battery if you disconnected it and power the device back on with the power button. Make sure USB isn't connected. Wait for few minutes as it will take time to power on. Eventually, if everything went well, it would boot or go into download mode. Then, flash the stock files onto the phone without locking the bootloader. Follow, Method 5 for that. Sometimes, the display will be blank while in download mode. You should connect using adb/fastboot and check the status.
+* If it didn't work, try with all the alternatives I mentioned. This is the only way to unbrick on newer Qualcomm devices. Method 1 is for old devices. This can be used when device doesn't enter recovery mode, download mode, power on, display anything or any of the Qualcomm status codes.
 
 # Method 4 (Mi Flash Tool):
 
