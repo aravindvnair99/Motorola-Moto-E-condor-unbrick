@@ -168,3 +168,9 @@ Use this as a last resort if nothing works. This is strictly not for noobs. You 
 * Wipe the card.
 * Partition using Linux and put appropiate data with correct filesystems.
 * Attach the eMMC back onto your phone and voila! Don't forget to dance! You just became an expert geek!
+
+# Method 8 (Voltage / Battery)
+
+```
+Details have been put up on my XDA DevDB main post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214)
+```
