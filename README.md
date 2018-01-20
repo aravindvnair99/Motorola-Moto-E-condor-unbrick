@@ -17,6 +17,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 See also the list of [contributors](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/graphs/contributors) who participated in this project.
 
+# :book: Proof of concept
+
+Proof that the methods work can be found in the proof folder [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Proofs).
+
 # :trident: Questions, FAQ, etc
 
 Please check my XDA DevDB post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214).
