@@ -46,3 +46,4 @@ Participate [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-
 * [Create partition.xml file manually](https://androidforums.com/threads/create-partition-xml-file-manually.1021067/)
 * [How To Create Partition.xml (GPT)](https://androidforums.com/threads/guide-how-to-create-partition-xml-gpt.1125433/)
 * [How to program eMMC images into blank flash?](http://kernel-develop.blogspot.in/2012/05/how-to-program-emmc-images-into-blank.html)
+* [Glossary - XDA Developers](https://forum.xda-developers.com/wiki/Glossary)
