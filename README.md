@@ -105,4 +105,4 @@ Fastboot is three different things with the same name: A protocol for communicat
 * [XT830C (Straight Talk)](https://www.androidfilehost.com/?fid=24052804347833874)
 * [If nothing works, pick from here for your respective model](https://forum.xda-developers.com/showthread.php?t=2755857)
 
-Note: To find out which firmware you have to download, type ```fastboot getvar ro.build.version.full``` in fastboot mode. ALways download the same OS version or something higher. Never go down the version line.
+Note: To find out which firmware you have to download, type ```fastboot getvar ro.build.version.full``` in fastboot mode. Always download the same OS version or something higher. Never go down the version line.
