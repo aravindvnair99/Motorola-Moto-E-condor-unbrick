@@ -5,12 +5,14 @@ Before you begin, identify what type of brick you have first.
 
 * A software bricked device is one that might be stuck in a bootloop, but has a working bootloader, recovery partition, fastboot, or adb. If you press the power button and things appear on the screen and you are able to enter fastboot mode (Power + Volume Down) or recovery, then your device is soft bricked. Go straight to Method 5. DO NOT TRY OTHER METHODS NO MATTER WHAT HAPPENS UNLESS YOU HARD BRICK YOUR PHONE OF COURSE!!
 
-* Go through the [Prerequisites](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
-
-* Methods 3, 5, 6 and 7 are perfectly working. Your mileage will vary with other methods. Please don't give up on first try. You need to try a lot of times and test your luck.
+* Methods 3, 5, 6, 7 and 8 are perfectly working. Your mileage will vary with other methods. Please don't give up on first try. You need to try a lot of times and test your luck.
 ```
 
 # Method 1 (QFIL):
+
+```
+No guarantee. Solely depends on your device condition.
+```
 
 * Method 3 is the only way to unbrick on newer Qualcomm devices. Method 1 is for old devices.
 * Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
@@ -28,9 +30,13 @@ Before you begin, identify what type of brick you have first.
 
 # Method 2 (Blank Flash):
 
-* Don't try. Not working. You might make the situation worse. All files aren't present.
-* Blanklash won't work unless Motorola releases the signed files. It's not worth of my time to sit and sign the files with proper checksum. SORRY!
-* Those of you who already tried will most probably have to replace motherboard due to bootloader/SoC internal damage.
+```
+Don't try. Not working. You might make the situation worse. All files aren't present.
+
+Blanklash won't work unless Motorola releases the signed files. It's not worth of my time to sit and sign the files with proper checksum. SORRY!
+
+Those of you who already tried will most probably have to replace motherboard due to bootloader/SoC internal damage.
+```
 
 # Method 3 (eMMC Software Download):
 
@@ -172,5 +178,7 @@ Use this as a last resort if nothing works. This is strictly not for noobs. You 
 # Method 8 (Voltage / Battery)
 
 ```
-Details have been put up on my XDA DevDB main post [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214)
+Details have been put up on my XDA DevDB main post.
 ```
+
+* Click [here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) to view.
