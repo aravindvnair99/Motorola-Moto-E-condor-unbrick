@@ -40,6 +40,10 @@ Those of you who already tried will most probably have to replace motherboard du
 
 # Method 3 (eMMC Software Download):
 
+```
+Warning: You will loose your IMEI and get a new IMEI by this method. You need to resolve the IMEI by yourself as both phones will end up with same IMEI.
+```
+
 ## Requirements for this method:
 
 * If you are on QHSUSB_BULK mode, get out of the mode by installing necessary drivers. Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
@@ -66,7 +70,7 @@ dd if=/dev/block/mmcblk0 of=/sdcard/backup.img bs=1024 count=168960
 * That's your Qualcomm device unbrick file. Copy the file onto your PC from the microSD card. Download DiskImageRev or Rufus or Win32 Disk Imager or similar imaging softwares and flash the Qualcomm device unbrick file you copied previously onto the microSD card using the softwares you downloaded. Try multiple softwares if one doesn't work.
 * Once the flashing aka writing is done, your microSD card is in a bootable state as all the GPT information has been created.
 * Make sure the bricked phone is powered off. If possible, remove the battery (advisable). Wait for 2 minutes and then insert the microSD card.
-* Then connect the battery if you disconnected it and power the device back on with the power button. Make sure USB isn't connected. Wait for few minutes as it will take time to power on. Eventually, if everything went well, it would boot or go into download mode. Then, flash the stock files onto the phone without locking the bootloader. Follow, Method 5 for that. Sometimes, the display will be blank while in download mode. You should connect using adb/fastboot and check the status.
+* Then connect the battery if you disconnected it and power the device back on with the power button. Make sure USB isn't connected. Wait for few minutes as it will take time to power on. Eventually, if everything went well, it would boot or go into download mode. Then, flash the stock files onto the phone without locking the bootloader. Follow, Method 5 for that. Sometimes, the display will be blank while in download mode. You should connect using adb/fastboot and check the status. Correct the IMEI after that.
 * If it didn't work, try with all the alternatives I mentioned. This is the only way to unbrick on newer Qualcomm devices. Method 1 is for old devices. This can be used when device doesn't enter recovery mode, download mode, power on, display anything or any of the Qualcomm status codes.
 
 # Method 4 (Mi Flash Tool):
