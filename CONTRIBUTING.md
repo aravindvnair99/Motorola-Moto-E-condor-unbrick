@@ -11,7 +11,7 @@ Report [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-un
 * What steps did you take to make the bug appear?
 * How can the bug be fixed? (Incase you know)
 * Which OS are you using?
-* Have you tried any trubleshooting steps such as a reboot for example?
+* Have you tried any troubleshooting steps such as a reboot for example?
 * Have you followed the prescribed prerequisites?
 
 # I want to participate in the discussion.
