@@ -2,7 +2,7 @@ All contributions are welcome! Code, documentation, softwares, scripts, graphics
 
 # How do I contact you?
 
-Check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Contact%20me.md) for contact details.
+Check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Contact%20me.md) for contact details.
 
 # I found some bugs or issues. Where do I report?
 

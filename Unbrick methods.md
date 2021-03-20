@@ -15,7 +15,7 @@ No guarantee. Solely depends on your device condition.
 ```
 
 * Method 3 is the only way to unbrick on newer Qualcomm devices. Method 1 is for old devices.
-* Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
+* Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Prerequisite.md)
 * Install latest QPST tools (I have uploaded all latest files even though I used version 2.7 build 437) and open QFIL (I used version 2.0.0.4).
 * Choose Flat Build under 'Select build type'.
 * Select the COM port to which the phone is connected by clicking 'Select port'.
@@ -46,7 +46,7 @@ Warning: You will loose your IMEI and get a new IMEI by this method. You need to
 
 ## Requirements for this method:
 
-* If you are on QHSUSB_BULK mode, get out of the mode by installing necessary drivers. Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Prerequisite.md)
+* If you are on QHSUSB_BULK mode, get out of the mode by installing necessary drivers. Go through the [Prerequisites.](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Prerequisite.md)
 * Get an microSD card that has a minimum storage capacity of 4GB. You can try with 4GB and 8GB as some reported success with 4GB, while others reported success with 8GB. Speed must be UHS1, UHS2 or UHS3. Class10 aka C10 and below microSD cards didn't work for anyone except one person as far as people have reported to me. SO, please get UHS1 and above.
 * You need an exact duplicate of your phone. I mean, a different phone but same model number and CID. THe device chipset should be same. If working one is MSM8210, the bricked phone also should be MSM8210. The phone should also be bootloader unlocked, rooted and in perfect working condition. It should be running TWRP 3.2.1-0 or higher.
 * Make a full backup of the emmcblk0 in .img format. Name doesn't matter. You could name it backup.img for the sake of it. That's the internal EMMC storage card. Please try with loader.img and Loader.img also while using the `dd` command.
@@ -96,12 +96,12 @@ Once in fastboot mode, do one of this (Everything should be in the root folder i
 
 ### Windows Users:
 
-* Get '[Fastboot Unbrick.bat](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
+* Get '[Fastboot Unbrick.bat](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/main/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
 * Next, double click on Fastboot Unbrick.bat and watch your phone come back to life.
 
 ### Linux and Mac Users:
 
-* Get '[Fastboot Unbrick.sh](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
+* Get '[Fastboot Unbrick.sh](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/main/Fastboot%20Unbrick)' from my repository, 'fastboot' and your firmware files in one folder.
 * Open terminal and navigate to this folder. Or simply right click on an empty space in the folder and choose 'Open in Terminal'.
 * Type the following commands to execute the script in terminal after giving permissions using chmod and watch your phone come back to life.:
 
@@ -113,8 +113,8 @@ sudo ./"Fastboot Unbrick.sh"
 
 #### Links:
 
-* [Fastboot script](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Fastboot%20Unbrick)
-* [Softwares](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Software)
+* [Fastboot script](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/main/Fastboot%20Unbrick)
+* [Softwares](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/main/Software)
 
 ## Manual:
 
@@ -122,7 +122,7 @@ Open fastboot after connecting phone in fastboot mode and type:
 
 ```
 
-fastboot flash partition gpt.bin 
+fastboot flash partition gpt.bin
 
 fastboot flash motoboot motoboot.img
 
@@ -144,9 +144,9 @@ fastboot flash system system.img_sparsechunk.3
 
 fastboot flash modem NON-HLOS.bin
 
-fastboot erase modemst1 
+fastboot erase modemst1
 
-fastboot erase modemst2 
+fastboot erase modemst2
 
 fastboot flash fsg fsg.mbn
 

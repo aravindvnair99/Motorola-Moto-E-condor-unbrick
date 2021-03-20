@@ -5,7 +5,7 @@ Tools for Motorola Moto E XT1022, XT1021, XT1025 condor unbrick
 
 All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
 
-Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/CONTRIBUTING.md) for details on contributing.
+Please read [CONTRIBUTING.md](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/CONTRIBUTING.md) for details on contributing.
 
 # :scroll: License
 
@@ -19,7 +19,7 @@ See also the list of [contributors](https://github.com/aravindvnair99/Motorola-M
 
 # :book: Proof of concept
 
-Proof that the methods work can be found in the proof folder [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/master/Proofs).
+Proof that the methods work can be found in the proof folder [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/tree/main/Proofs).
 
 # :trident: Questions, FAQ, etc
 
@@ -33,11 +33,11 @@ Please read [Prerequisite](Prerequisite.md) file for details.
 
 # :book: How to contact me?
 
-Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Contact%20me.md).
+Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Contact%20me.md).
 
 # :book: How to unbrick?
 
-Please check my [XDA DevDB project here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) before checking [GitHub here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/master/Unbrick%20methods.md).
+Please check my [XDA DevDB project here](https://forum.xda-developers.com/moto-e/general/unbrick-hard-bricked-moto-e-t3599214) before checking [GitHub here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Unbrick%20methods.md).
 
 # :scroll: Changelog
 
