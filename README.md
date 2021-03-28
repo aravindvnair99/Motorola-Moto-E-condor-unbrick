@@ -33,7 +33,7 @@ Please read [Prerequisite](Prerequisite.md) file for details.
 
 # :book: How to contact me?
 
-Please check [here](https://github.com/aravindvnair99/Motorola-Moto-E-XT1022-condor-unbrick/blob/main/Contact%20me.md).
+Start a discussion [here](https://github.com/aravindvnair99/Motorola-Moto-E-condor-unbrick/discussions) in the right category.
 
 # :book: How to unbrick?
 
