@@ -154,7 +154,7 @@ fastboot erase userdata
 
 fastboot erase cache
 
-fastboot restart
+fastboot reboot
 
 ```
 
