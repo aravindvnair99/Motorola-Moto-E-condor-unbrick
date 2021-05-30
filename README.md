@@ -52,7 +52,7 @@ A hard bricked device is a device that shows 'QHSUSB_DLOAD' in the Windows Devic
 * Downgrading to stock 4.4.2 from stock 5.0.x (If correct bootloader is present, no issues)
 * Take OTA from stock 4.4.2 to stock 4.4.4 (If correct bootloader is present, no issues)
 
-Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can you it as an alternative of recovery mode in case recovery mode partition is corrupted.
+Fastboot is three different things with the same name: A protocol for communication between your phone hardware and a computer, software that runs on the phone when in fastboot mode and the executable file on the computer you use to make them talk to each other. Not all phones have a fastboot mode that the user can access. Because fastboot starts before android and even when android isn't installed you can use it as an alternative of recovery mode in case recovery mode partition is corrupted.
 
 # :book: File IDs and descriptions (Please note OEMs in many cases change default names):
 
